@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EntryView.vue should show the entry as well. 1`] = `
+<div class="entry-title d-flex justify-content-between p-2">
+  <div><span class="text-success fs-3 fw-bold">9</span><span class="mx-1 fs-3">September</span><span class="mx-2 fs-4 fw-light">2023, Saturday</span></div>
+  <div><input type="file" accept="image/png, image/jpeg" style="display: none;"><button class="btn btn-danger mx-2"> Erase <i class="fa fa-trash-alt"></i></button><button class="btn btn-primary"> Upload photo <i class="fa fa-upload"></i></button></div>
+</div>
+<hr>
+<div class="d-flex flex-column px-3 h-75"><textarea placeholder="What happened today?"></textarea></div>
+<img src="https://abc_xyz.jpg" alt="entry picture" class="img-thumbnail">
+<!--v-if-->
+<fab-component-stub icon="fa-save"></fab-component-stub>
+`;
