@@ -28,7 +28,7 @@ describe('Vuex - Journal module', () => {
     xyz456: {
       date: 'Sat Jul 16 2021',
       text: 'Eos in similique velit alias ipsum rem veniam tenetur labore odio? Veniam.'
-    }
+    },
   };
 
   beforeEach(() => {
