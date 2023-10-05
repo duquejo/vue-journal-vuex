@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 const authApi = axios.create({
-  baseURL: 'https://identitytoolkit.googleapis.com/v1/accounts',
+  baseURL: 'https://abc.xyz',
   params: {
-    key: 'AIzaSyBjXMS3PTsgJWGMgY7rwNJjo3JGvvW_ASk',
+    key: 'abc123',
   }
 });
 
